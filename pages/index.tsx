@@ -1,21 +1,19 @@
-import Head from 'next/head';
-import Sidebar from "../components/Sidebar.jsx";
+import Head from 'next/head'
+import Sidebar from "../components/Sidebar.js"
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    <div className="bg-black h-screen overflow-hidden">
       <Head>
         <title>Spotify</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        {/*Sidebar */}
+        {/*Sidebar*/}
         <Sidebar></Sidebar>
-        {/*Center */} 
+        {/*Center*/}
       </main>
-      <div>
-        {/*Player*/}
-      </div>
+      <div>{/*Player*/}</div>
     </div>
   )
 }
