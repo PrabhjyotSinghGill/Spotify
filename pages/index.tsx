@@ -9,7 +9,7 @@ export default function Home() {
         <title>Spotify</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
+      <main className='flex'>
         {/*Sidebar*/}
         <Sidebar></Sidebar>
         {/*Center*/}
