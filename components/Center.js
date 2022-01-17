@@ -5,11 +5,11 @@ import {shuffle} from "lodash";
 
 const colors = [
     "from-indigo-500",
-    "from-blue-500",
-    "from-green-500",
-    "from-red-500",
-    "from-yellow-500",
-    "from-purple-500",
+    "from-slate-500",
+    "from-orange-400",
+    "from-cyan-500",
+    "from-emerald-500",
+    "from-rose-500",
 ];
 
 function Center(){
