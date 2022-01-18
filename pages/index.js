@@ -17,7 +17,7 @@ export default function Home() {
         {/*Center*/}
         <Center></Center>
       </main>
-      <div>
+      <div className="sticky bottom-0">
         {/*Player*/}
         <Player></Player>
       </div>
