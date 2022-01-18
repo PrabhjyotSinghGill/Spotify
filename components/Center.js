@@ -46,7 +46,7 @@ function Center(){
                 <ChevronDownIcon className="h-5 w-5"></ChevronDownIcon>
             </div>
         </header>
-        <section className={`flex items-end space-x-7 bg-gradient-to-b to-black ${color} h-80 text-white -8`}>
+        <section className={`flex items-end space-x-7 bg-gradient-to-b to-black ${color} h-80 text-white p-8`}>
             <img className="h-44 w-44 shadow-2xl" src={playlist?.images?.[0]?.url} alt=""></img>
             <div>
                 <p>PLAYLIST</p>
