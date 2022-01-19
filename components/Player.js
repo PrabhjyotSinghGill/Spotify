@@ -70,9 +70,9 @@ function Player(){
         </div>
         {/*Right*/}
         <div className="flex items-center space-x-3 md:space-x-4 justify-end pr-5">
-            <VolumeDownIcon className="button"></VolumeDownIcon>
-            <input type="range" value="" min={0} max={100}></input>
-            <VolumeUpIcon className="button"></VolumeUpIcon>
+            <VolumeDownIcon onClick={()=> volume > 0 && setVolume(volume-10)} className="button"></VolumeDownIcon>
+            <input  className="w-14 md:w-28" type="range" value={volume} onChange={(e) => setVolume(Number(e.target.value))} min={0} max={100}></input>
+            <VolumeUpIcon onClick={() => volume < 100 && setVolume(volume+10)} className="button"></VolumeUpIcon>
         </div>
 
     </div>
